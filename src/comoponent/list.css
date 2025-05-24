@@ -1,0 +1,10 @@
+li{
+  background-color: rgb(175, 0, 0);
+  margin: 5px;
+  text-align: left;
+  border-radius: 10px;
+  
+}
+button{
+  text-align: right;
+}
