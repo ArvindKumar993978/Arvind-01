@@ -1,0 +1,140 @@
+body {
+    background-color: rgb(20, 46, 70);
+    display: grid;
+    place-items: center;
+}
+
+.card {
+    background-color: rgb(17, 38, 58);
+    padding: 30px;
+    margin-top: 30px;
+    box-shadow: 3px 5px 10px black;
+    color: #b1afaf;
+    border-radius: 10px;
+}
+
+.card p {
+    font-size: 13px;
+}
+
+#head {
+    color: white;
+    font-size: 22px;
+}
+
+#down {
+    border: 1px solid rgb(45, 92, 136);
+    padding: 8px;
+    border-radius: 10px;
+    margin: 13px 0;
+    background-color: rgb(23, 64, 102);
+}
+
+.flex {
+    display: flex;
+    font-size: 13px;
+    gap: 15px;
+}
+
+.flex input {
+    padding: 10px 13px;
+    border: 1px solid rgb(107, 105, 105);
+    font-size: 11px;
+    margin-top: 5px;
+    background-color: rgb(12, 27, 41);
+    border-radius: 8px;
+    color: #b1afaf;
+}
+
+.flex input:focus {
+    outline: none;
+}
+
+#email {
+    font-size: 13px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+#email-field input {
+    padding: 10px 200px 10px 10px;
+    margin-top: 10px;
+    border: 1px solid rgb(107, 105, 105);
+    background-color: rgb(12, 27, 41);
+    border-radius: 8px;
+    font-size: 11px;
+    color: #b1afaf;
+}
+
+#email-field input:focus {
+    outline: none;
+}
+
+#letter {
+    font-size: 10px;
+}
+
+#radio {
+    height: 8px;
+    width: 352px;
+    border-radius: 10px;
+    background-color: rgb(70, 73, 77);
+}
+
+#checkbox {
+    display: flex;
+    gap: 5px;
+}
+
+#checkbox label {
+    font-size: 11px;
+    margin: 20px 10px 20px 0;
+}
+
+#submit {
+    padding: 10px 137px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-size: 11px;
+    background-color: rgb(62, 167, 253);
+}
+
+#message {
+    margin-top: 10px;
+    color: red;
+    text-align: center;
+}
+
+#footer {
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-right: 11px;
+    font-size: 13px;
+}
+
+#footer a {
+    color: #14afca;
+    text-decoration: none;
+}
+
+#footer button {
+    border: none;
+    padding: 5px 9px;
+    font-size: 11px;
+    background-color: rgb(12, 27, 41);
+    color: wheat;
+    border-radius: 10px;
+}
+
+#toggle {
+    background-color: rgb(12, 27, 41);
+    border: none;
+    border-radius: 20px;
+    font-size: 10px;
+    margin-left: 1150px;
+    margin-top: 20px;
+    padding: 7px 10px;
+    color: wheat;
+    box-shadow: 1px 1px 5px white;
+}

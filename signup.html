@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signup.css">
+
+</head>
+
+<body>
+
+    <div class="card">
+        <div id="head"><b>Create your account</b></div>
+        <p>Signup to practice the dashboard.</p>
+        <div id="down">This is a demo signup--data stays in your browser.</div>
+
+        <form id="signupForm">
+
+            <div class="flex">
+                <div>
+                    <label for="first-name">First name</label><br>
+                    <input id="first-name" type="text" placeholder="Enter your first name" required>
+                </div>
+                <div>
+                    <label for="last-name">Last name</label><br>
+                    <input id="last-name" type="text" placeholder="Enter your first name" required>
+                </div>
+            </div>
+
+            <div id="email-field">
+                <label for="email">Email</label><br>
+                <input id="email" type="email" placeholder="Enter your email"required>
+            </div>
+            <div class="flex">
+                <div>
+                    <label for="confirm-password">Password</label><br>
+                    <input id="password" type="password" placeholder="Enter password" minlength="8" required>
+                </div>
+                <div>
+                    <label for="password">Confirm password</label><br>
+                    <input id="confirm-password" type="password" placeholder="Re-enter password" required>
+                </div>
+            </div>
+
+            <p id="letter">Use at least 8 characters, with letter & <br>numbers.</p>
+            <div id="radio"></div>
+
+            <div id="checkbox">
+                <input id="terms" type="checkbox" required>
+                <!-- <p>I agree to the terms</p> -->
+                <label for="terms">I agree to terms</label>
+            </div>
+
+            <button id="submit" type="submit">Create account</button>
+            <div id="message"></div>
+
+        </form>
+
+        <div id="footer">
+            <span>Already have an account? <a href="login.html">Sign in</a></span>
+            <span><button id="demo">Sent Demo Users</button></span>
+
+        </div>
+
+
+    </div>
+
+
+    <button id="toggle">Toggle theme</button>
+    <script src="signup.js"></script>
+
+
+</body>
+
+</html> 

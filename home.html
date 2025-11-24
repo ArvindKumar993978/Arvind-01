@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <link rel="stylesheet" href="home.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="main-container">
+        <nav>
+            <div id="nav-div">
+                <div>
+                <button id="left-nav"
+                    onclick="document.getElementById('home-page').scrollIntoView({ behavior: 'instant' })">WebTechPractice</button>
+                </div>
+                <div>
+                    <button class="right-nav"
+                        onclick="document.getElementById('about').scrollIntoView({ behavior: 'instant' })">About</button>
+                    <button class="right-nav"
+                        onclick="document.getElementById('last-page').scrollIntoView({ behavior: 'instant' })">Service</button>
+                    <button class="right-nav">Theme</button>
+                    <button class="right-nav" onclick="window.location.href='login.html'">Login</button>
+                    <button id="right2-div" class="right-nav" onclick="window.location.href='signup.html'">Sign
+                        Up</button>
+                </div>
+            </div>
+        </nav>
+
+        <div id="home-page">
+            <div id="right-home">
+                <div id="right-home1">
+                    <b>Launch your Web <br> Tech practice site in <br> minutes</b>
+                </div>
+                <div id="right-home2">
+                    A clean, modern starter template with Login, Signup, Dashboard,
+                    Profile and Logout pages <br> using only HTML/CSS/JS and browser
+                    localStorage. Perfect for learning and practicing web<br> development fundamentals.
+                </div>
+                <div id="right-home3">
+                    <button id="rightbut-hom" onclick="window.location.href='signup.html'">Get Started</button>
+                    <button onclick="window.location.href='login.html'">I already have an account.</button>
+                </div>
+            </div>
+
+            <div id="left-home">
+                <div class="slide">
+                    <div class="slider">
+                        <h2><b>Complete Auth Flow</b></h2>
+                        <p>
+                        <div>Seamless Login - Signup - Dashboard </div>
+                        <div>- Logout flow with persistent demo</div>
+                        <div> storage and validation</div>
+                        </p>
+                    </div>
+                    <div class="slider">
+                        <h2><b>Complete Flow</b></h2>
+                        <p>Seamless Login - Signup - Dashboard - Logout flow with persistent demo storage and validation
+                        </p>
+                    </div>
+                    <div class="slider">
+                        <h2><b>Complete Auth</b></h2>
+                        <p>Seamless Login - Signup - Dashboard - Logout flow with persistent demo storage and validation
+                        </p>
+                    </div>
+                    <div class="slider">
+                        <h2><b>Auth Flow</b></h2>
+                        <p>Seamless Login - Signup - Dashboard - Logout flow with persistent demo storage and validation
+                        </p>
+                    </div>
+                </div>
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+                <div class="dots"></div>
+            </div>
+
+        </div>
+
+
+
+        <div id="about" >
+            <div id="blankspace"></div>
+            <div id="about-head">About This Project</div>
+            <p id="about-para">This comprhensive template is designed for students and developers to practice modern
+                <br> web fundamentals--responsive layout, accessible forms client-side state management, and <br>
+                component architecture--without any framework or complex build process.
+            </p>
+
+            <div id="about-box">
+                <div><span class="tick"></span> Single-file pages you can open directly in any modern browser</div>
+                <div><span class="tick"></span> Consistent design system with CSS custom properties and smooth animation
+                </div>
+                <div><span class="tick"></span> fully accessible with keyboar navigation and semantic HTML structure
+                </div>
+                <div><span class="tick"></span> obile first resposive design that works on all device</div>
+                <div><span class="tick"></span> Clean , readable code with extensive commentsfor learning</div>
+                <div><span class="tick"></span> Modern CSS techniques include Grid, Flexbbox, and customs properties
+                </div>
+            </div>
+        </div>
+
+        <div id="last-page">
+            <div id="blank-space"></div>
+            <div id="last-head">What's Included</div>
+            <div class="last-content">
+                <div>
+                    <h2>Authentication Template</h2>
+                    <p>Beautiful login and signup forms with real-time validation, error handling, and seamless
+                        localStorage integration.</p>
+                </div>
+
+                <div>
+                    <h2>Dashboard Layout</h2>
+                    <p>Professional sidebar navigation with responsive and comprhensive user profile management
+                        interface.</p>
+                </div>
+                <div>
+                    <h2>Profile management</h2>
+                    <p>Editable user profile form with persistent data storageand real-time previiew of changes.</p>
+                </div>
+            </div>
+            <div class="last-content">
+                <div>
+                    <h2>Logout Flow</h2>
+                    <p>Secure system cleaning with confirmation dialogs and smooth redirect handling back to login.</p>
+                </div>
+                <div>
+                    <h2>Theme System</h2>
+                    <p>Elegant dark/night mode toogle with system performance detection and cross-page persisitence.</p>
+                </div>
+                <div>
+                    <h2>Ui Componnenets</h2>
+                    <p>Reusable button, cards, forms, modals, and navigation elements with Consistent styling.</p>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="site-footer">
+            <p>© 2025 WebTech Practice. Built for learning and growth.</p>
+            <nav class="footer-links">
+                <div>About</div>
+                <div>Services</div>
+                <div>Login</div>
+                <div>Signup</div>
+            </nav>
+        </footer>
+
+        <script src="index.js"></script>
+    </div>
+</body>
+
+</html>
